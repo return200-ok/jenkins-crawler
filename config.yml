@@ -1,0 +1,3 @@
+jobs:
+  example:          # Put your repo name here
+    team: example   # Put your team name

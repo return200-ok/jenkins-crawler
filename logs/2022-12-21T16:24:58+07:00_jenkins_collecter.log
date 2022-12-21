@@ -1,0 +1,17 @@
+2022-12-21 16:24:58,399 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-21 16:24:58,421 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-21 16:24:58,423 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-21 16:24:58,424 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-21 16:24:58,425 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-21 16:24:58,428 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-21 16:24:58,567 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-21 16:24:58,716 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-21 16:24:58,910 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json?tree=jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5D%5D%5D%5D%5D%5D%5D%5D%5D%5D HTTP/1.1" 200 850
+2022-12-21 16:24:58,912 [MainThread  ] [INFO ]  Collecting metrics
+2022-12-21 16:24:58,912 [MainThread  ] [DEBUG]  Processing Job example
+2022-12-21 16:24:58,912 [MainThread  ] [ERROR]  Failed collecting metrics 'JenkinsClient' object has no attribute 'get_jobs'
+Traceback (most recent call last):
+  File "/home/caolv/github.com_return200-ok/jenkins-crawler/jenkins_collector.py", line 36, in update_metrics
+    branches = self._jenkins.get_jobs(repository.name)
+AttributeError: 'JenkinsClient' object has no attribute 'get_jobs'
+2022-12-21 16:24:58,913 [MainThread  ] [INFO ]  Completed collecting metrics in 0.00070953369140625 s
