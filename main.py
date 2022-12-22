@@ -45,7 +45,7 @@ def main():
     jenkins_client = JenkinsClient(
         jenkins_base_url, user, password, insecure
     )
-    jobs = jenkins_client.get_job_details()
+    jobs = jenkins_client.get_build_status('',275)
     print(jobs)
 
 
