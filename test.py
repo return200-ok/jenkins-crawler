@@ -23,5 +23,5 @@ server = Jenkins('http://192.168.3.100:8080', username='admin', password='MqU9Cz
 # print(build_info)
 
 # get all jobs from the specific view
-jobs = server.get_build_info('Jenkins-shared-library',274)
+jobs = server.get_build_info('Jenkins-shared-library',279)
 print(dir(server))

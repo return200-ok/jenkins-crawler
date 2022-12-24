@@ -1,14 +1,12 @@
-#!/usr/bin/python
-
+import json
 import logging
+import re
 import sys
-import time
-from datetime import datetime, timedelta
+from datetime import datetime
 
+import pandas as pd
+import requests
 import rfc3339
-import yaml
-from jenkins_client import JenkinsClient
-from jenkins_collector import JenkinsCollector, Repository, collector
 
 '''
 Config logging handler
@@ -18,7 +16,7 @@ def get_date_string(date_object):
 
 logFormatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s")
 rootLogger = logging.getLogger()
-fileName = get_date_string(datetime.now())+'_jenkins_collecter'
+fileName = get_date_string(datetime.now())+'_gitlab_collecter'
 logPath = 'logs'
 fileHandler = logging.FileHandler("{0}/{1}.log".format(logPath, fileName))
 fileHandler.setFormatter(logFormatter)
@@ -34,9 +32,26 @@ consoleHandler = logging.StreamHandler(sys.stdout)
 consoleHandler.setFormatter(logFormatter)
 rootLogger.addHandler(consoleHandler)
 logging.getLogger().setLevel(logging.DEBUG)
+logger = logging.getLogger()
 
-def main():
-    collector()
+def sr_to_json(series):
+    sr = pd.Series(series)
+    fre = sr.value_counts()
+    d = fre.to_json()
+    j_data = json.loads(d)
+    return j_data
 
-if __name__ == "__main__":
-    main()
+def get_json(element, json_data):
+  if element in json_data:
+    return json_data[element]
+  else:
+    return 0
+
+#Get data from url and convert to JSON
+def get_data(url, token):
+  session = requests.Session()
+  session.auth = token, ''
+  call = getattr(session, 'get')
+  res = call(url)
+  data = json.loads(res.content)
+  return data

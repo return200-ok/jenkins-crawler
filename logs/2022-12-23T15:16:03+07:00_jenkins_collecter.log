@@ -1,0 +1,19 @@
+2022-12-23 15:16:03,707 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-23 15:16:03,727 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-23 15:16:03,729 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-23 15:16:03,730 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-23 15:16:03,730 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-23 15:16:03,732 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-23 15:16:03,871 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-23 15:16:04,003 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-23 15:16:04,135 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json?tree=jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5D%5D%5D%5D%5D%5D%5D%5D%5D%5D HTTP/1.1" 200 850
+2022-12-23 15:16:04,262 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-23 15:16:04,387 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /computer/api/json?depth=0 HTTP/1.1" 200 781
+2022-12-23 15:16:04,586 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /pluginManager/api/json?depth=2 HTTP/1.1" 200 10996
+2022-12-23 15:16:04,732 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-23 15:16:04,857 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Jenkins-shared-library/api/json?tree=name HTTP/1.1" 200 99
+2022-12-23 15:16:04,983 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json?tree=jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5D%5D%5D%5D%5D%5D%5D%5D%5D%5D HTTP/1.1" 200 850
+2022-12-23 15:16:05,136 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Jenkins-shared-library/api/json?depth=0 HTTP/1.1" 200 680
+2022-12-23 15:16:05,270 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "POST /job/Jenkins-shared-library/build HTTP/1.1" 201 0
+2022-12-23 15:16:15,284 [MainThread  ] [DEBUG]  Resetting dropped connection: 192.168.3.100
+2022-12-23 15:16:15,939 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Jenkins-shared-library/276/api/json?depth=0 HTTP/1.1" 200 603
