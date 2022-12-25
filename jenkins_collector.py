@@ -77,3 +77,5 @@ def collector():
     list_job_name = jenkins_client.get_list_job_name()
     build_info = jenkins_client.build_info('Bipower-dev/bipower-team-service',56)
     print(build_info)
+
+    
