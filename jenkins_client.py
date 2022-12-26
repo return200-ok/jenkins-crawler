@@ -1,8 +1,9 @@
-import logging
+# import logging
 
 from jenkins import Jenkins
+from utils import get_json
 
-logger = logging.getLogger(__name__)
+# logger = logging.getLogger(__name__)
 
 class JenkinsClient:
     def __init__(self, jenkins_base_url, username=None, password=None, token=None, insecure=False, build_number=None):
@@ -55,23 +56,31 @@ class JenkinsClient:
         all_job = self.get_server_instance().get_all_jobs()
         return all_job
     
-    def get_list_job_name(self):
+    def get_list_job(self):
         all_job = self.get_server_instance().get_all_jobs()
         list_job_name = []
         for i in all_job:
-            list_job_name.append(i['fullname'])
+            job_name = get_json('fullname', i)
+            list_job_name.append(job_name)
         return list_job_name
 
     def build_info(self, jobname, build_number):
         build_info = self.get_server_instance().get_build_info(jobname, build_number)
         return build_info
 
-    def get_total_build(self, jobname):
-        job_info = self.get_server_instance().get_job_info(jobname)
-        list_build = job_info['builds']
-        total_build_id = []
-        for i in list_build:
-            total_build_id.append(i['number'])
-        return total_build_id
+    def get_list_build(self, jobname):
+        if self.get_server_instance().is_folder(jobname):
+            print(jobname+'is folder')
+        else:
+            job_info = self.get_server_instance().get_job_info(jobname)
+            build_object = get_json('builds', job_info)
+            list_build = []
+            try:
+                for i in build_object:
+                    build_number = get_json('number', i)
+                    list_build.append(build_number)
+                return list_build
+            except TypeError:
+                print("{} is not iterable".format(build_object))
     
 

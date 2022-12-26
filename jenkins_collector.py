@@ -1,12 +1,12 @@
 import datetime
-import logging
+# import logging
 import time
 from dataclasses import dataclass
 
 from influx_client import InfluxPoint
 from jenkins_client import JenkinsClient
 
-logger = logging.getLogger(__name__)
+# logger = logging.getLogger(__name__)
 
 def calculate_total_duration(build_data):
     total_duration = 0
@@ -73,9 +73,13 @@ def collector():
     jenkins_client = JenkinsClient(
         jenkins_base_url, user, password, insecure
     )
-    total_build_id = jenkins_client.get_total_build('Bipower-dev/bipower-team-service')
-    list_job_name = jenkins_client.get_list_job_name()
-    build_info = jenkins_client.build_info('Bipower-dev/bipower-team-service',56)
-    print(build_info)
 
-    
+    list_job = jenkins_client.get_list_job()
+    for job in list_job:
+        list_build = jenkins_client.get_list_build(job)
+        try:
+            for build in list_build:
+                build_info = jenkins_client.build_info(job, build)
+                print(build_info)
+        except TypeError:
+            print("{} is not iterable".format(list_build))

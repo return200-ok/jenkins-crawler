@@ -1,0 +1,18 @@
+2022-12-26 09:06:32,752 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:32,774 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:32,775 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:32,776 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:32,776 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:32,779 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:32,932 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:33,068 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:06:33,203 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json?tree=jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5D%5D%5D%5D%5D%5D%5D%5D%5D%5D HTTP/1.1" 200 850
+2022-12-26 09:06:33,206 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:33,249 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:33,250 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:33,251 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:33,251 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:33,253 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:33,397 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:33,531 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:06:33,666 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Biplus%20Radio/api/json?depth=0 HTTP/1.1" 200 423

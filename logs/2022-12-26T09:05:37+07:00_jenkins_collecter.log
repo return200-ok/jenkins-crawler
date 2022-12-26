@@ -1,0 +1,582 @@
+2022-12-26 09:05:37,896 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:37,918 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:37,920 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:37,921 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:37,921 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:37,924 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:38,064 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:38,201 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:38,338 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json?tree=jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5D%5D%5D%5D%5D%5D%5D%5D%5D%5D HTTP/1.1" 200 850
+2022-12-26 09:05:38,342 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:38,367 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:38,367 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:38,367 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:38,368 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:38,369 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:38,500 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:38,630 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:38,766 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Biplus%20Radio/api/json?depth=0 HTTP/1.1" 200 423
+2022-12-26 09:05:38,771 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:38,790 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:38,790 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:38,791 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:38,791 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:38,793 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:38,929 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:39,061 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:39,202 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/api/json?depth=0 HTTP/1.1" 200 518
+2022-12-26 09:05:39,208 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:39,331 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:39,332 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:39,332 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:39,333 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:39,337 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:39,474 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:39,617 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:39,750 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/api/json?depth=0 HTTP/1.1" 200 520
+2022-12-26 09:05:39,754 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:39,776 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:39,777 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:39,777 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:39,778 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:39,780 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:39,914 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:40,051 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:40,199 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/api/json?depth=0 HTTP/1.1" 200 559
+2022-12-26 09:05:40,202 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:40,227 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:40,227 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:40,228 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:40,228 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:40,232 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:40,368 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:40,501 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 153
+2022-12-26 09:05:40,669 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Jenkins-shared-library/api/json?depth=0 HTTP/1.1" 200 677
+2022-12-26 09:05:40,673 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:40,693 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:40,694 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:40,695 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:40,695 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:40,697 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:40,831 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:40,963 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 153
+2022-12-26 09:05:41,218 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Biplus%20Radio/job/ci_dev/api/json?depth=0 HTTP/1.1" 200 701
+2022-12-26 09:05:41,225 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:41,246 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:41,247 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:41,248 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:41,249 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:41,253 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:41,388 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:41,521 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:41,701 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Biplus%20Radio/job/ci_dev_scm/api/json?depth=0 HTTP/1.1" 200 858
+2022-12-26 09:05:41,707 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:41,729 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:41,730 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:41,731 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:41,732 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:41,737 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:41,869 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:42,001 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:42,138 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Biplus%20Radio/job/ci_dev_test/api/json?depth=0 HTTP/1.1" 200 658
+2022-12-26 09:05:42,143 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:42,169 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:42,171 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:42,171 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:42,172 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:42,175 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:42,308 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:42,441 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:42,619 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Biplus%20Radio/job/ci_dev_test_2/api/json?depth=0 HTTP/1.1" 200 325
+2022-12-26 09:05:42,625 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:42,653 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:42,655 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:42,655 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:42,656 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:42,658 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:42,790 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:42,921 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:43,068 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Biplus%20Radio/job/demo-ci/api/json?depth=0 HTTP/1.1" 200 592
+2022-12-26 09:05:43,073 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:43,092 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:43,093 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:43,093 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:43,093 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:43,095 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:43,227 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:43,362 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 153
+2022-12-26 09:05:43,505 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Biplus%20Radio/job/develop/api/json?depth=0 HTTP/1.1" 200 671
+2022-12-26 09:05:43,510 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:43,534 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:43,535 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:43,536 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:43,536 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:43,539 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:43,678 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:43,809 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 156
+2022-12-26 09:05:43,977 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-authorization-serivce/api/json?depth=0 HTTP/1.1" 200 981
+2022-12-26 09:05:43,980 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:44,001 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:44,002 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:44,003 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:44,003 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:44,011 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:44,143 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:44,275 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 153
+2022-12-26 09:05:44,429 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-candidate-service/api/json?depth=0 HTTP/1.1" 200 840
+2022-12-26 09:05:44,435 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:44,456 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:44,456 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:44,457 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:44,457 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:44,459 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:44,597 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:44,730 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:44,872 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-catalog-service/api/json?depth=0 HTTP/1.1" 200 769
+2022-12-26 09:05:44,877 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:44,898 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:44,901 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:44,902 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:44,902 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:44,909 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:45,050 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:45,183 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:45,343 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-contract-service/api/json?depth=0 HTTP/1.1" 200 781
+2022-12-26 09:05:45,348 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:45,376 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:45,377 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:45,377 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:45,378 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:45,381 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:45,520 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:45,654 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:45,793 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-email-job/api/json?depth=0 HTTP/1.1" 200 638
+2022-12-26 09:05:45,798 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:45,823 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:45,824 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:45,824 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:45,824 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:45,826 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:45,963 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:46,100 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:46,256 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-email-service/api/json?depth=0 HTTP/1.1" 200 778
+2022-12-26 09:05:46,261 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:46,282 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:46,285 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:46,286 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:46,291 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:46,294 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:46,428 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:46,561 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:46,730 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-employee-service/api/json?depth=0 HTTP/1.1" 200 859
+2022-12-26 09:05:46,735 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:46,754 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:46,754 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:46,754 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:46,755 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:46,757 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:46,889 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:47,019 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:47,164 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-gateway-service/api/json?depth=0 HTTP/1.1" 200 797
+2022-12-26 09:05:47,170 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:47,187 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:47,187 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:47,188 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:47,188 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:47,190 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:47,319 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:47,448 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:47,581 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-learning-service/api/json?depth=0 HTTP/1.1" 200 643
+2022-12-26 09:05:47,587 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:47,608 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:47,609 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:47,609 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:47,610 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:47,615 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:47,746 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:47,879 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:48,017 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-profile-service/api/json?depth=0 HTTP/1.1" 200 770
+2022-12-26 09:05:48,023 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:48,042 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:48,043 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:48,043 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:48,043 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:48,045 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:48,183 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:48,320 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:48,460 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-recruitment-service/api/json?depth=0 HTTP/1.1" 200 644
+2022-12-26 09:05:48,465 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:48,485 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:48,488 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:48,490 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:48,491 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:48,494 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:48,631 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:48,761 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:48,894 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-report-service/api/json?depth=0 HTTP/1.1" 200 640
+2022-12-26 09:05:48,900 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:48,921 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:48,923 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:48,924 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:48,925 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:48,928 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:49,061 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:49,193 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:49,352 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-saga-service/api/json?depth=0 HTTP/1.1" 200 849
+2022-12-26 09:05:49,358 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:49,384 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:49,389 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:49,391 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:49,391 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:49,393 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:49,529 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:49,662 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 156
+2022-12-26 09:05:49,839 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-salary-service/api/json?depth=0 HTTP/1.1" 200 915
+2022-12-26 09:05:49,845 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:49,868 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:49,871 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:49,872 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:49,872 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:49,875 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:50,009 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:50,140 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:50,286 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-team-service/api/json?depth=0 HTTP/1.1" 200 794
+2022-12-26 09:05:50,291 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:50,315 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:50,320 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:50,320 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:50,320 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:50,323 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:50,455 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:50,598 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:50,784 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CD-production/job/bipower-webapp/api/json?depth=0 HTTP/1.1" 200 966
+2022-12-26 09:05:50,792 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:50,819 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:50,820 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:50,820 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:50,821 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:50,824 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:50,959 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:51,091 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:51,266 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-authorization-serivce/api/json?depth=0 HTTP/1.1" 200 863
+2022-12-26 09:05:51,272 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:51,292 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:51,293 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:51,293 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:51,294 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:51,296 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:51,430 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:51,562 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:51,719 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-candidate-service/api/json?depth=0 HTTP/1.1" 200 858
+2022-12-26 09:05:51,725 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:51,748 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:51,751 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:51,752 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:51,752 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:51,755 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:51,888 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:52,021 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 152
+2022-12-26 09:05:52,173 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-catalog-serivce/api/json?depth=0 HTTP/1.1" 200 867
+2022-12-26 09:05:52,176 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:52,195 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:52,196 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:52,198 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:52,198 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:52,202 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:52,334 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:52,465 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:52,621 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-contract-service/api/json?depth=0 HTTP/1.1" 200 864
+2022-12-26 09:05:52,624 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:52,641 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:52,643 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:52,644 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:52,645 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:52,650 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:52,783 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:52,911 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 153
+2022-12-26 09:05:53,052 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-email-job/api/json?depth=0 HTTP/1.1" 200 706
+2022-12-26 09:05:53,055 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:53,074 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:53,074 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:53,075 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:53,075 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:53,078 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:53,214 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:53,349 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:53,497 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-email-service/api/json?depth=0 HTTP/1.1" 200 850
+2022-12-26 09:05:53,500 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:53,520 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:53,522 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:53,523 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:53,523 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:53,526 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:53,665 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:53,802 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:53,952 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-employee-service/api/json?depth=0 HTTP/1.1" 200 866
+2022-12-26 09:05:53,954 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:53,983 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:53,985 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:53,986 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:53,987 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:53,992 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:54,131 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:54,261 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:54,426 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-gateway-service/api/json?depth=0 HTTP/1.1" 200 854
+2022-12-26 09:05:54,428 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:54,447 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:54,450 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:54,450 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:54,451 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:54,453 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:54,588 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:54,717 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 153
+2022-12-26 09:05:54,849 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-learning-service/api/json?depth=0 HTTP/1.1" 200 712
+2022-12-26 09:05:54,852 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:54,874 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:54,875 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:54,875 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:54,875 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:54,878 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:55,008 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:55,135 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:55,293 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-profile-service/api/json?depth=0 HTTP/1.1" 200 863
+2022-12-26 09:05:55,296 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:55,314 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:55,316 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:55,317 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:55,317 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:55,321 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:55,454 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:55,584 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:55,717 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-recruitment-service/api/json?depth=0 HTTP/1.1" 200 712
+2022-12-26 09:05:55,722 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:55,766 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:55,767 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:55,767 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:55,767 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:55,770 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:55,907 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:56,041 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:56,175 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-report-service/api/json?depth=0 HTTP/1.1" 200 709
+2022-12-26 09:05:56,180 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:56,199 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:56,200 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:56,201 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:56,201 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:56,203 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:56,333 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:56,464 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 156
+2022-12-26 09:05:56,669 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-saga-serivce/api/json?depth=0 HTTP/1.1" 200 852
+2022-12-26 09:05:56,674 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:56,693 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:56,693 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:56,693 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:56,694 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:56,697 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:56,831 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:56,972 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:05:57,122 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-salary-service/api/json?depth=0 HTTP/1.1" 200 853
+2022-12-26 09:05:57,128 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:57,161 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:57,163 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:57,164 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:57,164 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:57,168 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:57,324 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:57,490 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:57,643 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-team-service/api/json?depth=0 HTTP/1.1" 200 849
+2022-12-26 09:05:57,648 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:57,666 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:57,668 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:57,669 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:57,669 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:57,673 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:57,806 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:57,936 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:58,092 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-CI-production/job/bipower-webapp/api/json?depth=0 HTTP/1.1" 200 825
+2022-12-26 09:05:58,098 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:58,116 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:58,117 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:58,118 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:58,118 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:58,121 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:58,252 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:58,395 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 156
+2022-12-26 09:05:58,550 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-authorization-serivce/api/json?depth=0 HTTP/1.1" 200 854
+2022-12-26 09:05:58,554 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:58,573 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:58,573 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:58,574 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:58,574 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:58,578 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:58,714 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:58,854 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 156
+2022-12-26 09:05:59,009 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-candidate-service/api/json?depth=0 HTTP/1.1" 200 863
+2022-12-26 09:05:59,014 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:59,040 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:59,041 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:59,042 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:59,042 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:59,044 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:59,178 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:59,307 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 156
+2022-12-26 09:05:59,458 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-catalog-serivce/api/json?depth=0 HTTP/1.1" 200 859
+2022-12-26 09:05:59,464 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:59,486 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:59,487 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:59,487 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:59,488 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:59,490 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:05:59,626 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:05:59,761 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:05:59,902 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-client/api/json?depth=0 HTTP/1.1" 200 822
+2022-12-26 09:05:59,908 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:05:59,935 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:05:59,937 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:05:59,937 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:05:59,937 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:05:59,940 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:00,071 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:00,205 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:06:00,354 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-config/api/json?depth=0 HTTP/1.1" 200 834
+2022-12-26 09:06:00,359 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:00,377 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:00,378 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:00,378 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:00,379 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:00,384 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:00,522 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:00,652 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:06:00,805 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-contract-service/api/json?depth=0 HTTP/1.1" 200 846
+2022-12-26 09:06:00,810 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:00,827 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:00,828 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:00,828 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:00,828 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:00,832 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:00,964 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:01,097 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:06:01,244 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-core/api/json?depth=0 HTTP/1.1" 200 819
+2022-12-26 09:06:01,248 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:01,266 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:01,268 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:01,269 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:01,269 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:01,271 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:01,403 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:01,533 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:06:01,675 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-data/api/json?depth=0 HTTP/1.1" 200 817
+2022-12-26 09:06:01,680 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:01,700 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:01,701 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:01,702 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:01,702 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:01,704 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:01,835 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:01,966 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:06:02,103 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-email-job/api/json?depth=0 HTTP/1.1" 200 626
+2022-12-26 09:06:02,107 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:02,125 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:02,126 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:02,126 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:02,126 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:02,128 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:02,268 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:02,408 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:06:02,576 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-email-service/api/json?depth=0 HTTP/1.1" 200 855
+2022-12-26 09:06:02,582 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:02,605 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:02,606 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:02,606 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:02,607 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:02,609 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:02,741 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:02,876 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:06:03,032 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-employee-service/api/json?depth=0 HTTP/1.1" 200 847
+2022-12-26 09:06:03,037 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:03,063 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:03,064 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:03,065 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:03,066 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:03,071 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:03,201 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:03,332 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:06:03,469 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-gateway/api/json?depth=0 HTTP/1.1" 200 825
+2022-12-26 09:06:03,474 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:03,496 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:03,497 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:03,498 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:03,498 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:03,503 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:03,638 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:03,771 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:06:03,924 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-gateway-service/api/json?depth=0 HTTP/1.1" 200 861
+2022-12-26 09:06:03,930 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:03,956 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:03,957 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:03,957 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:03,957 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:03,960 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:04,095 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:04,227 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:06:04,375 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-hr/api/json?depth=0 HTTP/1.1" 200 817
+2022-12-26 09:06:04,381 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:04,408 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:04,409 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:04,409 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:04,410 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:04,412 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:04,561 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:04,693 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 155
+2022-12-26 09:06:04,857 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-learning-service/api/json?depth=0 HTTP/1.1" 200 855
+2022-12-26 09:06:04,860 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:04,879 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:04,880 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:04,882 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:04,882 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:04,885 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:05,027 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:05,158 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 156
+2022-12-26 09:06:05,314 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-profile-service/api/json?depth=0 HTTP/1.1" 200 858
+2022-12-26 09:06:05,320 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:05,338 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:05,339 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:05,339 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:05,339 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:05,341 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:05,475 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:05,611 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 156
+2022-12-26 09:06:05,777 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-recruitment-service/api/json?depth=0 HTTP/1.1" 200 847
+2022-12-26 09:06:05,782 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:05,912 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:05,914 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:05,915 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:05,915 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:05,920 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:06,051 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:06,188 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:06:06,329 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-report-service/api/json?depth=0 HTTP/1.1" 200 647
+2022-12-26 09:06:06,335 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:06,368 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:06,372 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:06,372 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:06,372 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:06,375 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:06,507 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:06,636 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:06:06,789 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-saga-serivce/api/json?depth=0 HTTP/1.1" 200 858
+2022-12-26 09:06:06,795 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:06,816 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:06,817 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:06,818 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:06,823 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:06,825 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
+2022-12-26 09:06:06,964 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
+2022-12-26 09:06:07,097 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 154
+2022-12-26 09:06:07,258 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /job/Bipower-dev/job/bipower-salary-service/api/json?depth=0 HTTP/1.1" 200 847
+2022-12-26 09:06:07,261 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
+2022-12-26 09:06:07,279 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
+2022-12-26 09:06:07,279 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
+2022-12-26 09:06:07,280 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
+2022-12-26 09:06:07,280 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
+2022-12-26 09:06:07,282 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
