@@ -25,7 +25,7 @@ class JenkinsClient:
                 else:
                     return Jenkins(self._jenkins_base_url)
             except Exception as e:
-                logger.info(msg='Unable to connect to Jenkins server')
+                print(msg='Unable to connect to Jenkins server')
                 raise e
 
     def get_jobs(self):
@@ -70,7 +70,7 @@ class JenkinsClient:
 
     def get_list_build(self, jobname):
         if self.get_server_instance().is_folder(jobname):
-            print(jobname+'is folder')
+            print(jobname+' is folder, has no build data')
         else:
             job_info = self.get_server_instance().get_job_info(jobname)
             build_object = get_json('builds', job_info)
@@ -81,6 +81,6 @@ class JenkinsClient:
                     list_build.append(build_number)
                 return list_build
             except TypeError:
-                print("{} is not iterable".format(build_object))
+                print("Job {} has no build data, {}  is not iterable".format(jobname, list_build))
     
 
