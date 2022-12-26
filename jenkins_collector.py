@@ -25,8 +25,9 @@ class Repository:
     group: str
 
 class BuildInfo:
-    def __init__(self, jobname, url, timestamp, duration, estimatedDuration, queueId, result, displayName):
+    def __init__(self, jobname, build_id, url, timestamp, duration, estimatedDuration, queueId, result, displayName):
         self.jobname = jobname
+        self.build_id = build_id
         self.url = url
         self.timestamp = timestamp
         self.duration = duration
@@ -40,9 +41,10 @@ class JenkinsCollector(object):
         self._jenkins = jenkins_client
         self.repositories = repositories
 
-def gen_build_data(build_info, job):
+def gen_build_data(build_info, job, build_id):
     data = BuildInfo(
         job,
+        build_id,
         build_info['url'],
         round(build_info['timestamp']/1000),
         build_info['duration'],
@@ -58,6 +60,7 @@ def gen_datapoint(data):
     measurement = 'jenkins'
     tags = {
         "jobname": data.jobname,
+        "build_id": data.build_id,
         "url": data.url,
         }
     timestamp = data.timestamp
@@ -85,7 +88,7 @@ def collector(jenkins_client, influx_client):
         try:
             for build in list_build:
                 build_info = jenkins_client.build_info(job, build)
-                data = gen_build_data(build_info, job)
+                data = gen_build_data(build_info, job, build)
                 push_data(data, influx_client)
         except TypeError:
             print("Job {} has no build data, {}  is not iterable".format(job, list_build))
