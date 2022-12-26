@@ -1,9 +1,0 @@
-2022-12-23 11:51:09,561 [MainThread  ] [DEBUG]  Starting new HTTP connection (1): 192.168.3.100:8080
-2022-12-23 11:51:09,585 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 403 561
-2022-12-23 11:51:09,586 [MainThread  ] [DEBUG]  handle_other(): Handling: 403
-2022-12-23 11:51:09,587 [MainThread  ] [ERROR]  handle_other(): Mutual authentication unavailable on 403 response
-2022-12-23 11:51:09,587 [MainThread  ] [DEBUG]  handle_response(): returning <Response [403]>
-2022-12-23 11:51:09,590 [MainThread  ] [DEBUG]  Starting new HTTP connection (2): 192.168.3.100:8080
-2022-12-23 11:51:09,772 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json HTTP/1.1" 200 482
-2022-12-23 11:51:09,921 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /crumbIssuer/api/json HTTP/1.1" 200 153
-2022-12-23 11:51:10,057 [MainThread  ] [DEBUG]  http://192.168.3.100:8080 "GET /api/json?tree=jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5Burl,color,name,jobs%5D%5D%5D%5D%5D%5D%5D%5D%5D%5D HTTP/1.1" 200 850
