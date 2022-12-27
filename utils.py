@@ -27,7 +27,6 @@ consoleHandler = logging.StreamHandler(sys.stdout)
 consoleHandler.setFormatter(logFormatter)
 rootLogger.addHandler(consoleHandler)
 logging.getLogger().setLevel(logging.INFO)
-# logger = logging.getLogger('jenkins_collector')
 
 def get_json(element, json_data):
   try:
