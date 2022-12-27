@@ -1,11 +1,7 @@
-import logging
-from time import time
-
 from influxdb_client import InfluxDBClient
 from influxdb_client.client.write_api import ASYNCHRONOUS, SYNCHRONOUS
 from influxdb_client.rest import ApiException
 
-logger = logging.getLogger(__name__)
 
 class InfluxPoint:
     
@@ -86,16 +82,16 @@ class InfluxClient:
             # bucket does not exist
             if e.status == 404:
                 message = 'The specified bucket does not exist.'
-                logging.exception(message)
+                print(message)
                 raise Exception(f"{message}") from e
             # insufficient permissions
             if e.status == 403:
                 message = "The specified token does not have sufficient credentials to write to "+self._bucket+"."
-                logging.exception(message)
+                print(message)
                 raise Exception(f"{message}") from e
             # 400 (BadRequest) caused by empty LineProtocol
             if e.status != 400:
-                logging.exception(e)
+                print(e)
                 raise
         print("ok")
 
