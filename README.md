@@ -24,6 +24,14 @@ Run command below:
 ```
 docker build -t jenkins-collector:0.1.0 .
 ```
+### Change cronjob
+Cronjob is set " 0 0 * * * " in current.
+```
+cat crontab
+# START CRON JOB
+0 0 * * * /usr/local/bin/python3 /jenkins_collector/main.py > /proc/1/fd/1 2>/proc/1/fd/2
+# END CRON JOB
+```
 
 ### Run with `docker compose`
 
